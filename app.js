@@ -1,2 +1,32 @@
-var hello = 'Hello World';
-alert('hello');
+var orange = 100;
+var apple = 120;
+
+if(orange < apple){
+	alert('みかんの値段はリンゴより安い')
+}
+else if(orange == apple){
+	alert('みかんとリンゴが同じ値段')
+}
+else{
+	alert('みかんの値段はリンゴより高い')
+}
+
+var max = 1000;
+var num = 2;
+var count = 0;
+
+while(num < max){
+  num = num * 2;
+  count = count + 1;
+}
+
+alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+
+var i;
+var num = 0;
+
+for(i = 1; i < 30; i++){
+  num = num + i;
+}
+
+alert('1から30まで足し算した結果は' + num + 'です');
